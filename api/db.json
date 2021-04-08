@@ -1,0 +1,51 @@
+{
+  "promotions": [
+    {
+      "title": "Smart TV 50´ 4K UHD Samsung, 2 HDMI, 1 USB, Wi-Fi, Bluetooth, HDR - LH50BETHVGGXZD",
+      "price": "2599.25",
+      "imageUrl": "https://images0.kabum.com.br/produtos/fotos/114280/smart-tv-50-samsung-2-hdmi-1-usb-wi-fi-bluetooth-hdr-lh50bethvggxzd_1593690096_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=114280",
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "userId": 2,
+      "promotionId": 1,
+      "comment": "Tela HD",
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "parentId": 1,
+      "comment": "Ta barato!!!",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "promotionId": 1,
+      "comment": "Muito boa essa TV",
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "parentId": 3,
+      "comment": "Realmente!",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "name": "Alice",
+      "avatarUrl": "https://randomuser.me/api/portraits/women/73.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Carlos",
+      "avatarUrl": "https://randomuser.me/api/portraits/men/59.jpg"
+    }
+  ]
+}

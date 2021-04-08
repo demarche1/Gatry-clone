@@ -1,0 +1,63 @@
+.commentsTree {
+  list-style: none;
+  font-size: 0.9rem;
+  padding-left: 0;
+}
+.item {
+  display: flex;
+  margin-top: 20px;
+}
+
+.avatar {
+  width: 49px;
+  height: 49px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+
+.itemName {
+  font-weight: bold;
+}
+
+.ItemInfo p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.answerButton {
+  color: #578eb1;
+  padding: 0;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.answerBox {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+
+.answerBox textarea {
+  outline: none;
+}
+
+.sendAnswer {
+  color: #fff;
+  background-color: #578eb1;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: 300ms;
+  border: none;
+  outline: none;
+  padding: 3px 8px;
+}
+
+/* //////////////// */
+
+.noLoadComments {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}

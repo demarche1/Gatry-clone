@@ -1,0 +1,27 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.ovelay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.modal {
+  max-width: 800px;
+  margin: 80px auto 0 auto;
+  background-color: #fff;
+  padding: 15px;
+}
+
+.closeButton {
+  font-size: 1.2rem;
+  background: unset;
+  outline: unset;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  float: right;
+  cursor: pointer;
+}

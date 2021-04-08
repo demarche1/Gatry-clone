@@ -1,0 +1,115 @@
+.card {
+  box-shadow: 0 0 5px 2px rgb(184, 181, 181);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.img {
+  max-width: 150px;
+}
+
+.info {
+  margin-left: 15px;
+  width: 100%;
+}
+
+.title {
+  color: #6d6d6e;
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price {
+  color: #568db3;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: 5px 0 5px 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+}
+
+.comment {
+  color: #6d6d6e;
+  max-width: 19rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.comments {
+  color: #568db3;
+  margin-left: auto;
+  background: unset;
+  border: unset;
+  outline: unset;
+  font-size: 1rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.button {
+  text-decoration: none;
+  padding: 8px;
+  border: 1px solid #568db3;
+  color: #568db3;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+.edit {
+  text-decoration: none;
+  padding: 8px;
+  border: 1px solid green;
+  color: green;
+  margin-left: 10px;
+}
+
+/* Hover`s*/
+
+.button:hover {
+  color: #fff;
+  background-color: #568db3;
+  transition: 300ms;
+}
+
+.edit:hover {
+  color: #fff;
+  background-color: green;
+  transition: 300ms;
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+  }
+  .comments {
+    margin-left: 0;
+    margin: 5px;
+  }
+  .button {
+    text-align: center;
+    margin-bottom: 5px;
+    width: 90%;
+  }
+  .edit {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .card {
+    flex-direction: column;
+  }
+  .comment {
+    width: 100px;
+  }
+}
