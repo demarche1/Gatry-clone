@@ -56,7 +56,7 @@ const PromotionModal = ({ promotionId, onClickClose }) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <UIModal isOpen onClickClose={onClickClose}>
+    <UIModal onClickClose={onClickClose}>
       <form className={styles.modalForm} onSubmit={onSubmit}>
         <textarea
           disabled={sendCommentInfo.loading}

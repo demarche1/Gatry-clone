@@ -2,10 +2,87 @@
   "promotions": [
     {
       "title": "Smart TV 50´ 4K UHD Samsung, 2 HDMI, 1 USB, Wi-Fi, Bluetooth, HDR - LH50BETHVGGXZD",
-      "price": "2599.25",
+      "price": "2599.00",
       "imageUrl": "https://images0.kabum.com.br/produtos/fotos/114280/smart-tv-50-samsung-2-hdmi-1-usb-wi-fi-bluetooth-hdr-lh50bethvggxzd_1593690096_p.jpg",
       "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=114280",
       "id": 1
+    },
+    {
+      "title": "SSD WD Blue, 500GB, SATA, Leitura 560MB/s, Gravação 530MB/s - WDS500G2B0A",
+      "price": "599.88",
+      "imageUrl": "https://images4.kabum.com.br/produtos/fotos/95874/95874_1523014871_index_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=95874",
+      "id": 2
+    },
+    {
+      "title": "Amazon Smart Home Echo Show 8, Tela 8´, Alexa, Preto - B07SG8F1QF",
+      "price": "894.63",
+      "imageUrl": "https://images0.kabum.com.br/produtos/fotos/112740/smart-speaker-amazon-echo-show-8-tela-8-alexa-preto-b07sg8f1qf_1587747571_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=112740",
+      "id": 3
+    },
+    {
+      "title": "HD Seagate Externo Portátil Expansion USB 3.0 2TB Preto - STEA2000400",
+      "price": "505.76",
+      "imageUrl": "https://images0.kabum.com.br/produtos/fotos/72470/72470_index_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=72470",
+      "id": 4
+    },
+    {
+      "title": "Headset Gamer HyperX Cloud Stinger - HX-HSCS-BK/NA",
+      "price": "376.35",
+      "imageUrl": "https://images2.kabum.com.br/produtos/fotos/81132/81132_index_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=81132",
+      "id": 5
+    },
+    {
+      "title": "Teclado e Mouse Sem Fio Microsoft, 850, ABNT 2 - PY900021",
+      "price": "235.18",
+      "imageUrl": "https://images7.kabum.com.br/produtos/fotos/84577/84577_index_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=84577",
+      "id": 6
+    },
+    {
+      "title": "Teclado Mecânico Gamer Razer BlackWidow Tournament V2, Chroma, Razer Switch Orange, US - RZ03-02190700-R3M1",
+      "price": "823.41",
+      "imageUrl": "https://images4.kabum.com.br/produtos/fotos/95184/95184_3_1519991211_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=95184",
+      "id": 7
+    },
+    {
+      "title": "Lâmpada Spot KaBuM! Smart, Wi-Fi, Dicróica, GU10, RGB + Branco, 5W, Google Home, Alexa",
+      "price": "82.24",
+      "imageUrl": "https://images9.kabum.com.br/produtos/fotos/113759/lampada-dicroica-kabum-smart-wi-fi-rgb-branco-9w-google-home-alexa_1601040936_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=113759",
+      "id": 8
+    },
+    {
+      "title": "Caixa de Som Gamer Husky Gaming Storm, Rainbow, 6W, USB - CX-HST-RA",
+      "price": "94.00",
+      "imageUrl": "https://images1.kabum.com.br/produtos/fotos/102021/caixa-de-som-gamer-husky-storm-rainbow-6w-usb-cx-hst-ra_caixa-de-som-gamer-husky-storm-rainbow-6w-usb-cx-hst-ra_1565178255_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=102021",
+      "id": 9
+    },
+    {
+      "title": "Mouse Gamer Redragon Cobra, 10000DPI, Chroma, Preto - M711",
+      "price": "163.41",
+      "imageUrl": "https://images5.kabum.com.br/produtos/fotos/94555/94555_1516707116_index_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=94555",
+      "id": 10
+    },
+    {
+      "title": "SSD Gigabyte 120GB, SATA, Leitura 500MB/s, Gravação 380MB/s - GP-GSTFS31120GNTD",
+      "price": "199.88",
+      "imageUrl": "https://images5.kabum.com.br/produtos/fotos/100055/ssd-gigabyte-120gb-sata-leitura-500mb-s-gravacao-380mb-s-gp-gstfs31120gntd__1548940168_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=100055",
+      "id": 11
+    },
+    {
+      "title": "Mouse Multilaser Classic Box Óptico Full Black - MO300",
+      "price": "9.29",
+      "imageUrl": "https://images9.kabum.com.br/produtos/fotos/128719/mouse-multilaser-classic-box-optico-full-black-mo300-_1601387747_p.jpg",
+      "url": "https://www.kabum.com.br/cgi-local/site/produtos/descricao_ofertas.cgi?codigo=128719",
+      "id": 12
     }
   ],
   "comments": [
@@ -34,6 +111,12 @@
       "parentId": 3,
       "comment": "Realmente!",
       "id": 4
+    },
+    {
+      "userId": 2,
+      "promotionId": 1,
+      "comment": "De R$ 2.899,00 por R$ 2.599,00",
+      "id": 5
     }
   ],
   "users": [

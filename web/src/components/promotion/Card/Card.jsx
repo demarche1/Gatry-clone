@@ -16,7 +16,7 @@ const PromotionCard = ({ promotion, onCommentsClick }) => {
           <UINumeral format="$0,0.00">{promotion.price}</UINumeral>
         </div>
         <footer className={styles.footer}>
-          {promotion.comments[0] && (
+          {promotion.comments.length > 0 && (
             <div className={styles.comment}>
               "{promotion.comments[0].comment}"
             </div>

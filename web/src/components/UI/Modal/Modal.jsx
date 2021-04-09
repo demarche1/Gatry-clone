@@ -1,10 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import styles from "./Modal.module.css";
-const UIModal = ({ children, isOpen, onClickClose }) => {
-  if (!isOpen) {
-    return null;
-  }
+const UIModal = ({ children, onClickClose }) => {
   return ReactDOM.createPortal(
     <div className={styles.ovelay}>
       <div className={styles.modal}>

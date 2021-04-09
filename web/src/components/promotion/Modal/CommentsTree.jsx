@@ -58,7 +58,6 @@ const PromotionModalCommentsTree = ({
   }
 
   const renderItem = (item) => {
-    console.log(item);
     return (
       <li className={styles.item} key={item.id}>
         <img
