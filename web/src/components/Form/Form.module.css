@@ -1,0 +1,14 @@
+.fieldLabel {
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+}
+
+.fieldInput {
+  padding: 0.5rem;
+  outline: none;
+}
+
+.fieldError {
+  font-size: 0.8rem;
+  color: tomato;
+}
