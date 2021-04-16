@@ -1,8 +1,9 @@
-import styles from "./PromotionCard.module.css";
 import { Link } from "react-router-dom";
+import { BiTrash } from "react-icons/bi";
+import styles from "./PromotionCard.module.css";
 import UINumeral from "components/UI/Numeral/Numeral";
 
-const PromotionCard = ({ promotion, onCommentsClick }) => {
+const PromotionCard = ({ promotion, onCommentsClick, onDeleteClick }) => {
   return (
     <div className={styles.card}>
       <img
@@ -16,7 +17,7 @@ const PromotionCard = ({ promotion, onCommentsClick }) => {
           <UINumeral format="$0,0.00">{promotion.price}</UINumeral>
         </div>
         <footer className={styles.footer}>
-          {promotion.comments.length > 0 && (
+          {promotion.comments[0] && (
             <div className={styles.comment}>
               "{promotion.comments[0].comment}"
             </div>
@@ -37,6 +38,13 @@ const PromotionCard = ({ promotion, onCommentsClick }) => {
             Editar
           </Link>
         </footer>
+        <button
+          type="button"
+          className={styles.deleteButton}
+          onClick={onDeleteClick}
+        >
+          <BiTrash />
+        </button>
       </div>
     </div>
   );

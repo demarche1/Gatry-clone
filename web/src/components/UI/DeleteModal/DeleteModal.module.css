@@ -1,0 +1,25 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  max-width: 400px;
+  height: 200px;
+  background-color: #fff;
+  margin: 150px auto 0 auto;
+  padding: 12px;
+}
+
+.closeModalButton {
+  font-size: 1.2rem;
+  background: unset;
+  outline: unset;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  float: right;
+  cursor: pointer;
+}

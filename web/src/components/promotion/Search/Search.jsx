@@ -77,6 +77,14 @@ const PromotionSearch = () => {
         promotions={loadInfo.data}
         error={loadInfo.error}
         loading={loadInfo.loading}
+        reFetch={() => {
+          load({
+            debounced: false,
+            params: {
+              ...baseParams,
+            },
+          });
+        }}
       />
       {loadInfo.data &&
         !loadInfo.loading &&
